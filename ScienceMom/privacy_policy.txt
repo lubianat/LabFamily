@@ -1,0 +1,29 @@
+The privacy of the skill users is important to me, and I have personal committment to safeguarding it.
+This policy explains what we will do with your personal information.
+
+The Lab Mother skill requires access to Google Drive in order to function perfectly. 
+The skill searches, but do not store anywhere, metadata related to files on Google Drive.
+The access token for the metadata is saved on your Alexa-enabled device and nowhere else.
+
+The  Lab Mother skill can be authorized to read content in spreadsheets which is not shared, stored or made available anywhere.
+
+Only spreadsheets with the exact name 'Lab Mother' will be acessed, but no information regarding it will be stored by Lab Mother.
+
+Information retrieved will be used exclusively to build temporary responses for the skill.
+
+We may update this policy in the future, so you should check this page for ocasional changes. We will try our best to let you know in the case of importante changes.
+
+
+
+Children’s Privacy
+
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+
+
+Contact 
+
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+Tiago Lubiana Alves
+github: https://github.com/lubianat 
+email: firstname.middlename.lastname[AT]usp.br
+
