@@ -11,7 +11,7 @@ Only spreadsheets with the exact name 'Science Mom' will be acessed, but no info
 
 Information retrieved will be used exclusively to build temporary responses for the skill.
 
-We may update this policy in the future, so you should check this page for ocasional changes. We will try our best to let you know in the case of importante changes.
+We may update this policy in the future, so you should check this page for ocasional changes. We will try our best to let you know in the case of important changes.
 
 
 
