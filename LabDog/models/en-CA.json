@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lab dog",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a joke",
+            "a lab joke",
+            "tell me a joke",
+            "tell me a science joke",
+            "give me a joke",
+            "give me a science joke",
+            "tell me a pun",
+            "tell me a science pun",
+            "give me pun",
+            "give me a science pun",
+            "tell me something",
+            "give me something"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}
