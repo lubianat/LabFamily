@@ -1,5 +1,7 @@
 This is Lab Dog, an alexa skill meant to tell short, science related puns .
 
+This skill was built upon https://github.com/alexa/skill-sample-nodejs-fact, which is under Apache 2.0 license. 
+
 You can find it on the Alexa App store with the jokes saved here. 
 
 If you want to customize it with your own jokes, that is great! Folow the tutorial below and then
