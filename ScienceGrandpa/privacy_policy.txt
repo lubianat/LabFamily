@@ -1,0 +1,29 @@
+The privacy of the skill users is important to me, and I have personal committment to safeguarding it.
+
+This skill does not store any information related to what is used as input for pubmed searches.
+
+Information retrieved will be used exclusively to build temporary responses for the skill.
+
+We may update this policy in the future, so you should check this page for ocasional changes. We will try our best to let you know in the case of important changes.
+
+Terms of use
+
+This skill is meant to be used only as a tool for finding scientific literature. It is not intended to provide medical advice.
+All information provided is retrieved from the National Center for Biotechnology Information and is a product of primary research. 
+Due to the nature of scientific process, the information might be innacurate. 
+
+We are not responsible for any misuse of the information provided. 
+
+
+Children’s Privacy
+
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+
+
+Contact 
+
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+Tiago Lubiana Alves
+github: https://github.com/lubianat 
+email: firstname.middlename.lastname[AT]usp.br
+
