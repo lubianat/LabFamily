@@ -1,0 +1,284 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "science grandpa",
+      "intents": [{
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "getLiterature",
+          "slots": [{
+            "name": "item",
+            "type": "pubmedQuery"
+          }],
+          "samples": [
+            "stuff on {item}",
+            "some papers on {item}",
+            "could you bring some papers about {item}",
+            "what is known about {item}",
+            "what you know about {item}",
+            "I want to know about {item} on pubmed",
+            "i want to know about {item}",
+            "for news about {item}",
+            "scientific articles on  {item}",
+            "articles about {item}",
+            "tell me something about {item}",
+            "get nes about {item}",
+            "to get publications about {item}",
+            "to get info about {item}",
+            "to search pubmed for {item}",
+            "news on {item}",
+            "info about {item}",
+            "recent publications about {item}",
+            "the most recent publication about {item}",
+            "I want the most recent article about {item}",
+            "news about {item}",
+            "the latest publication about {item}",
+            "the latest article on {item}",
+            "to look for {item}",
+            "look for {item}",
+            "new articles about {item}",
+            "what is new about {item}"
+          ]
+        },
+        {
+          "name": "nextTitle",
+          "slots": [],
+          "samples": [
+            "next"
+          ]
+        },
+        {
+          "name": "sendAbstract",
+          "slots": [],
+          "samples": [
+            "yes",
+            "okay",
+            "send the abstract",
+            "shoot me the abstract",
+            "hit me",
+            "oh kay",
+            "alright",
+            "send it to me",
+            "send it to my phone",
+            "I like this one",
+            "OK"
+          ]
+        },
+        {
+          "name": "getLiteratureByRelevance",
+          "slots": [{
+            "name": "item",
+            "type": "pubmedQuery",
+            "samples": [
+              "search about {item}",
+              "I want to know about {item}",
+              "find stuff about {item}",
+              "my query is {item}",
+              "{item}"
+            ]
+          }],
+          "samples": [
+            "get the most relevant papers on {item}",
+            "to get the most relevant papers on {item}",
+            "tell me the most relevant papers on {item}",
+            "get the most relevant discoveries on {item}",
+            "to get the most relevant discoveries on {item}",
+            "tell me the most relevant discoveries on {item}",
+            "get the most cited papers on {item}",
+            "get the most important papers on {item}",
+            "to get the most important papers on {item}",
+            "tell me the most important papers on {item}",
+            "get the most important discoveries on {item}",
+            "to get the most important discoveries on {item}",
+            "tell me the most important discoveries on {item}",
+            "search for the most relevant papers on {item}",
+            "to search for the most relevant papers on {item}",
+            "give me the most relevant papers on {item}",
+            "search for the most relevant discoveries on {item}",
+            "to search for the most relevant discoveries on {item}",
+            "give me the most relevant discoveries on {item}",
+            "search for the most important papers on {item}",
+            "to search for the most important papers on {item}",
+            "give me the most important papers on {item}",
+            "search for the most important discoveries on {item}",
+            "to search for the most important discoveries on {item}",
+            "give me the most important discoveries on {item}",
+            "to get the most important papers on {item}",
+            "tell me the most important papers on {item}",
+            "get the top discoveries on {item}",
+            "to get the top discoveries on {item}",
+            "tell me the top discoveries on {item}",
+            "search for the top papers on {item}",
+            "to search for the top papers on {item}",
+            "give me the top papers on {item}",
+            "get the relevant papers on {item}",
+            "to get the relevant papers on {item}",
+            "tell me the relevant papers on {item}",
+            "get the relevant discoveries on {item}",
+            "to get the relevant discoveries on {item}",
+            "tell me the relevant discoveries on {item}",
+            "get the important papers on {item}",
+            "to get the important papers on {item}",
+            "tell me the important papers on {item}",
+            "get the important discoveries on {item}",
+            "to get the important discoveries on {item}",
+            "tell me the important discoveries on {item}",
+            "search for the relevant papers on {item}",
+            "to search for the relevant papers on {item}",
+            "give me the relevant papers on {item}",
+            "search for the relevant discoveries on {item}",
+            "to search for the relevant discoveries on {item}",
+            "give me the relevant discoveries on {item}",
+            "search for the important papers on {item}",
+            "to search for the important papers on {item}",
+            "give me the important papers on {item}",
+            "search for the important discoveries on {item}",
+            "to search for the important discoveries on {item}",
+            "give me the important discoveries on {item}",
+            "to get the important papers on {item}",
+            "tell me the important papers on {item}",
+            "relevant papers on {item}",
+            "relevant discoveries on {item}",
+            "relevant titles on {item}",
+            "for relevant titles on {item}"
+          ]
+        }
+      ],
+      "types": [{
+        "name": "pubmedQuery",
+        "values": [{
+            "name": {
+              "value": "chikungunya"
+            }
+          },
+          {
+            "name": {
+              "value": "dengue"
+            }
+          },
+          {
+            "name": {
+              "value": "malaria"
+            }
+          },
+          {
+            "name": {
+              "value": "hiv"
+            }
+          },
+          {
+            "name": {
+              "value": "cancer"
+            }
+          },
+          {
+            "name": {
+              "value": "lung cancer"
+            }
+          },
+          {
+            "name": {
+              "value": "clustering algorithms"
+            }
+          },
+          {
+            "name": {
+              "value": "zika virus"
+            }
+          },
+          {
+            "name": {
+              "value": "zika"
+            }
+          }
+        ]
+      }]
+    },
+    "dialog": {
+      "intents": [{
+          "name": "getLiterature",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [{
+            "name": "item",
+            "type": "pubmedQuery",
+            "confirmationRequired": true,
+            "elicitationRequired": true,
+            "prompts": {
+              "confirmation": "Confirm.Slot.911831057759.1424664435559",
+              "elicitation": "Elicit.Slot.911831057759.1424664435559"
+            }
+          }]
+        },
+        {
+          "name": "getLiteratureByRelevance",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [{
+            "name": "item",
+            "type": "pubmedQuery",
+            "confirmationRequired": true,
+            "elicitationRequired": true,
+            "prompts": {
+              "confirmation": "Confirm.Slot.130939525243.1221657728818",
+              "elicitation": "Elicit.Slot.130939525243.1221657728818"
+            }
+          }]
+        }
+      ]
+    },
+    "prompts": [{
+        "id": "Elicit.Slot.911831057759.1424664435559",
+        "variations": [{
+          "type": "PlainText",
+          "value": "Do you want to search about what?"
+        }]
+      },
+      {
+        "id": "Confirm.Slot.911831057759.1424664435559",
+        "variations": [{
+          "type": "PlainText",
+          "value": "I heard {item} , is that correct?"
+        }]
+      },
+      {
+        "id": "Elicit.Slot.130939525243.1221657728818",
+        "variations": [{
+            "type": "PlainText",
+            "value": "What is your query for pubmed?"
+          },
+          {
+            "type": "PlainText",
+            "value": "About which topic you want to find important papers?"
+          },
+          {
+            "type": "PlainText",
+            "value": "What do you want to search?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.130939525243.1221657728818",
+        "variations": [{
+            "type": "PlainText",
+            "value": "You want a search about {item} , is that correct?"
+          },
+          {
+            "type": "PlainText",
+            "value": "I heard {item} , is that correct?"
+          }
+        ]
+      }
+    ]
+  }
+}

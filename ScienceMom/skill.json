@@ -1,0 +1,130 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Discover where your stuff is with a couple words!",
+          "examplePhrases": [
+            "Alexa open Science Mom",
+            "Alexa ask Science Mom for the location of the  laboratory centrifuge",
+            "Alexa tell Science Mom to look for my enzymes"
+          ],
+          "keywords": [
+            "lab",
+            "science",
+            "biology"
+          ],
+          "name": "Science Mom",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a735/3b0534eda5e149898da3acb455fd6070/APP_ICON?versionId=yvLy7E_Om4TiaTF9luqP1z91zcSEjPuS&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=Ryuf6DpBweDkXZ9DkpxKDsI05zM%3D",
+          "description": "Science Mom  helps you to keep track of stuff in your laboratory !\n\n  For it to work you will need a spreadsheet on your Google Drive named “Science Mom ” (exactly like this ). In the first column, you need to put the name of the items. In the second, the location. all in lowercase. And that is it! It automatically syncs with your drive.\n\n  You can see a sample sheet in here: https://s3.amazonaws.com/sciencefamily/sciencemom.png\n  You can share the sheet if your lab members. If you have authorized the app and you can see changes… then the Science Mom  can see them too! (but only to the “Science Mom ” sheet)\n\n  By using the skill, you are authorizing the app to get the names of the files in your drive (but not the content!) and to read spreadsheets. The only spreadsheet it reads is the one named ‘Science Mom ’. So, don’t worry, we are not putting your files at risk :) \n\n  If you want to give feedback or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. The information it handles, however, is handled privately on Amazon Web Services. Feel free to build upon the idea!\n   This skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\n  Each skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/73a6/0c36fd20917e47c9bc5ccb432ea0fb48/APP_ICON_LARGE?versionId=mZkCEjc7omisxCQWltas19dDdrfZi9JG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=YRFZc%2BdLUfhvtrT%2FRIUs6URxJYo%3D"
+        },
+        "en-CA": {
+          "summary": "Discover where your stuff is with a couple words!",
+          "examplePhrases": [
+            "Alexa open Science Mom",
+            "Alexa ask Science Mom for the location of the  laboratory centrifuge",
+            "Alexa tell Science Mom to look for my enzymes"
+          ],
+          "keywords": [
+            "lab",
+            "science",
+            "biology"
+          ],
+          "name": "Science Mom",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a735/3b0534eda5e149898da3acb455fd6070/APP_ICON?versionId=yvLy7E_Om4TiaTF9luqP1z91zcSEjPuS&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=Ryuf6DpBweDkXZ9DkpxKDsI05zM%3D",
+          "description": "Science Mom  helps you to keep track of stuff in your laboratory !\n\n  For it to work you will need a spreadsheet on your Google Drive named “Science Mom ” (exactly like this ). In the first column, you need to put the name of the items. In the second, the location. all in lowercase. And that is it! It automatically syncs with your drive.\n\n  You can see a sample sheet in here: https://s3.amazonaws.com/sciencefamily/sciencemom.png\n  You can share the sheet if your lab members. If you have authorized the app and you can see changes… then the Science Mom  can see them too! (but only to the “Science Mom ” sheet)\n\n  By using the skill, you are authorizing the app to get the names of the files in your drive (but not the content!) and to read spreadsheets. The only spreadsheet it reads is the one named ‘Science Mom ’. So, don’t worry, we are not putting your files at risk :) \n\n  If you want to give feedback or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. The information it handles, however, is handled privately on Amazon Web Services. Feel free to build upon the idea!\n   This skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\n  Each skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/73a6/0c36fd20917e47c9bc5ccb432ea0fb48/APP_ICON_LARGE?versionId=mZkCEjc7omisxCQWltas19dDdrfZi9JG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=YRFZc%2BdLUfhvtrT%2FRIUs6URxJYo%3D"
+        },
+        "en-IN": {
+          "summary": "Discover where your stuff is with a couple words!",
+          "examplePhrases": [
+            "Alexa open Science Mom",
+            "Alexa ask Science Mom for the location of the laboratory centrifuge",
+            "Alexa tell Science Mom to look for my enzymes"
+          ],
+          "keywords": [
+            "lab",
+            "science",
+            "biology"
+          ],
+          "name": "Science Mom",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a735/3b0534eda5e149898da3acb455fd6070/APP_ICON?versionId=yvLy7E_Om4TiaTF9luqP1z91zcSEjPuS&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=Ryuf6DpBweDkXZ9DkpxKDsI05zM%3D",
+          "description": "Science Mom  helps you to keep track of stuff in your laboratory !\n\n  For it to work you will need a spreadsheet on your Google Drive named “Science Mom ” (exactly like this ). In the first column, you need to put the name of the items. In the second, the location. all in lowercase. And that is it! It automatically syncs with your drive.\n\n  You can see a sample sheet in here: https://s3.amazonaws.com/sciencefamily/sciencemom.png\n  You can share the sheet if your lab members. If you have authorized the app and you can see changes… then the Science Mom  can see them too! (but only to the “Science Mom ” sheet)\n\n  By using the skill, you are authorizing the app to get the names of the files in your drive (but not the content!) and to read spreadsheets. The only spreadsheet it reads is the one named ‘Science Mom ’. So, don’t worry, we are not putting your files at risk :) \n\n  If you want to give feedback or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. The information it handles, however, is handled privately on Amazon Web Services. Feel free to build upon the idea!\n   This skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\n  Each skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/73a6/0c36fd20917e47c9bc5ccb432ea0fb48/APP_ICON_LARGE?versionId=mZkCEjc7omisxCQWltas19dDdrfZi9JG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=YRFZc%2BdLUfhvtrT%2FRIUs6URxJYo%3D"
+        },
+        "en-AU": {
+          "summary": "Discover where your stuff is with a couple words!",
+          "examplePhrases": [
+            "Alexa open Science Mom",
+            "Alexa ask Science Mom for the location of the  laboratory centrifuge",
+            "Alexa tell Science Mom to look for my enzymes"
+          ],
+          "keywords": [
+            "lab",
+            "science",
+            "biology"
+          ],
+          "name": "Science Mom",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a735/3b0534eda5e149898da3acb455fd6070/APP_ICON?versionId=yvLy7E_Om4TiaTF9luqP1z91zcSEjPuS&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=Ryuf6DpBweDkXZ9DkpxKDsI05zM%3D",
+          "description": "Science Mom  helps you to keep track of stuff in your laboratory !\n\n  For it to work you will need a spreadsheet on your Google Drive named “Science Mom ” (exactly like this ). In the first column, you need to put the name of the items. In the second, the location. all in lowercase. And that is it! It automatically syncs with your drive.\n\n  You can see a sample sheet in here: https://s3.amazonaws.com/sciencefamily/sciencemom.png\n  You can share the sheet if your lab members. If you have authorized the app and you can see changes… then the Science Mom  can see them too! (but only to the “Science Mom ” sheet)\n\n  By using the skill, you are authorizing the app to get the names of the files in your drive (but not the content!) and to read spreadsheets. The only spreadsheet it reads is the one named ‘Science Mom ’. So, don’t worry, we are not putting your files at risk :) \n\n  If you want to give feedback or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. The information it handles, however, is handled privately on Amazon Web Services. Feel free to build upon the idea!\n   This skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\n  Each skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/73a6/0c36fd20917e47c9bc5ccb432ea0fb48/APP_ICON_LARGE?versionId=mZkCEjc7omisxCQWltas19dDdrfZi9JG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=YRFZc%2BdLUfhvtrT%2FRIUs6URxJYo%3D"
+        },
+        "en-GB": {
+          "summary": "Discover where your stuff is with a couple words!",
+          "examplePhrases": [
+            "Alexa open Science Mom",
+            "Alexa ask Science Mom for the location of the laboratory centrifuge",
+            "Alexa tell Science Mom to look for my enzymes"
+          ],
+          "keywords": [
+            "lab",
+            "science",
+            "biology"
+          ],
+          "name": "Science Mom",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a735/3b0534eda5e149898da3acb455fd6070/APP_ICON?versionId=yvLy7E_Om4TiaTF9luqP1z91zcSEjPuS&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=Ryuf6DpBweDkXZ9DkpxKDsI05zM%3D",
+          "description": "Science Mom  helps you to keep track of stuff in your laboratory !\n\n  For it to work you will need a spreadsheet on your Google Drive named “Science Mom ” (exactly like this ). In the first column, you need to put the name of the items. In the second, the location. all in lowercase. And that is it! It automatically syncs with your drive.\n\n  You can see a sample sheet in here: https://s3.amazonaws.com/sciencefamily/sciencemom.png\n  You can share the sheet if your lab members. If you have authorized the app and you can see changes… then the Science Mom  can see them too! (but only to the “Science Mom ” sheet)\n\n  By using the skill, you are authorizing the app to get the names of the files in your drive (but not the content!) and to read spreadsheets. The only spreadsheet it reads is the one named ‘Science Mom ’. So, don’t worry, we are not putting your files at risk :) \n\n  If you want to give feedback or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. The information it handles, however, is handled privately on Amazon Web Services. Feel free to build upon the idea!\n   This skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\n  Each skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/73a6/0c36fd20917e47c9bc5ccb432ea0fb48/APP_ICON_LARGE?versionId=mZkCEjc7omisxCQWltas19dDdrfZi9JG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535118705&Signature=YRFZc%2BdLUfhvtrT%2FRIUs6URxJYo%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This skill requires integration with google drive. \nFor testing, it would be nice to know if the access token is being properly refreshed by the alexa-enabled device for the user. \nThe scope for the drive API are the strictest possible.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom" 
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceMom/privacy_policy.txt"
+        },
+        "en-CA": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceMom/privacy_policy.txt"
+        },
+        "en-IN": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceMom/privacy_policy.txt"
+        },
+        "en-AU": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceMom/privacy_policy.txt"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceMom/privacy_policy.txt"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

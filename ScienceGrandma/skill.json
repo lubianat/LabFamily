@@ -1,0 +1,129 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Science Grandma is your lab assistant for recipes and protocols!",
+          "examplePhrases": [
+            "Alexa open science grandma",
+            "Alexa ask science grandma to set me up",
+            "I want protocol number 531"
+          ],
+          "keywords": [
+            "lab",
+            "protocol",
+            "science"
+          ],
+          "name": "Science Grandma",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3548/f9972edc9bcd41aaa7c9137fd3323d0e/APP_ICON?versionId=OZ4Tl8vGwG4taQm_dDpmU321lVPj88nA&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=Z3tU62sPm7BrpL81rUlRDwXv0sk%3D",
+         "description": "Science Grandma is your lab assistant for recipes and protocols! \n\nJust say something like “Alexa, ask Science Grandma for the RNA Extraction protocol“ and it will retrieve it from the protocols.io database! \nOn https://www.protocols.io/ you can find thousands of protocols curated by researchers around the globe. If you find a protocol that you like, you can have it read for you by Alexa on demand. And if you don’t find a suitable one, don’t worry, it is quite easy to get your well established protocols there :) .\n\nHow to make it work: \n\nSelect or create your own protocol on protocols.io (https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol.png)\nGet the protocol ID from selected protocol\n(https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocolio_id.png)\nThen you can access it directly by number! (“Alexa, ask Science Grandma to read protocol number 13851)  and done!\n\nAfter this, you can also do the following steps to get protocols by name (how cool is that?!) :\n\nLink this skill to Google Drive, by saying (“Alexa, ask Science Grandma to set me up”) \nCreate a sheet named “Science Grandma” (like https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol_drive.png) \nOn the first column, put the name of the protocol as you would say it and, on the second column, the number in the protocols.io database. And done!\n\nWhat can you do:\n\nAsk for a protocol by number (protocols.io id) or name\nGo step-by-step ( by just saying ‘next’) \nGo to specific steps by number (“go to step 5”)\n\nIf you want to give ideas or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. Feel free to build upon it!\nThis skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\nEach skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8601/5467c89f37de43e8a6203256b2c339c0/APP_ICON_LARGE?versionId=_Eb_F2pweBvnLttGPvETKLPnPJQV0Z_D&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=dZ3aslV36EkP6lKGk%2BNk63Bf4JI%3D"
+        },
+        "en-CA": {
+          "summary": "Science Grandma is your lab assistant for recipes and protocols!",
+          "examplePhrases": [
+            "Alexa open science grandma",
+            "Alexa ask science grandma to set me up",
+            "I want protocol number 531"
+          ],
+          "keywords": [
+            "lab",
+            "protocol",
+            "science"
+          ],
+          "name": "Science Grandma",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3548/f9972edc9bcd41aaa7c9137fd3323d0e/APP_ICON?versionId=OZ4Tl8vGwG4taQm_dDpmU321lVPj88nA&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=Z3tU62sPm7BrpL81rUlRDwXv0sk%3D",
+         "description": "Science Grandma is your lab assistant for recipes and protocols! \n\nJust say something like “Alexa, ask Science Grandma for the RNA Extraction protocol“ and it will retrieve it from the protocols.io database! \nOn https://www.protocols.io/ you can find thousands of protocols curated by researchers around the globe. If you find a protocol that you like, you can have it read for you by Alexa on demand. And if you don’t find a suitable one, don’t worry, it is quite easy to get your well established protocols there :) .\n\nHow to make it work: \n\nSelect or create your own protocol on protocols.io (https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol.png)\nGet the protocol ID from selected protocol\n(https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocolio_id.png)\nThen you can access it directly by number! (“Alexa, ask Science Grandma to read protocol number 13851)  and done!\n\nAfter this, you can also do the following steps to get protocols by name (how cool is that?!) :\n\nLink this skill to Google Drive, by saying (“Alexa, ask Science Grandma to set me up”) \nCreate a sheet named “Science Grandma” (like https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol_drive.png) \nOn the first column, put the name of the protocol as you would say it and, on the second column, the number in the protocols.io database. And done!\n\nWhat can you do:\n\nAsk for a protocol by number (protocols.io id) or name\nGo step-by-step ( by just saying ‘next’) \nGo to specific steps by number (“go to step 5”)\n\nIf you want to give ideas or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. Feel free to build upon it!\nThis skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\nEach skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8601/5467c89f37de43e8a6203256b2c339c0/APP_ICON_LARGE?versionId=_Eb_F2pweBvnLttGPvETKLPnPJQV0Z_D&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=dZ3aslV36EkP6lKGk%2BNk63Bf4JI%3D"
+        },
+        "en-GB": {
+          "summary": "Science Grandma is your lab assistant for recipes and protocols!",
+          "examplePhrases": [
+            "Alexa open science grandma",
+            "Alexa ask science grandma to set me up",
+            "I want protocol number 531"
+          ],
+          "keywords": [
+            "lab",
+            "protocol",
+            "science"
+          ],
+          "name": "Science Grandma",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3548/f9972edc9bcd41aaa7c9137fd3323d0e/APP_ICON?versionId=OZ4Tl8vGwG4taQm_dDpmU321lVPj88nA&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=Z3tU62sPm7BrpL81rUlRDwXv0sk%3D",
+         "description": "Science Grandma is your lab assistant for recipes and protocols! \n\nJust say something like “Alexa, ask Science Grandma for the RNA Extraction protocol“ and it will retrieve it from the protocols.io database! \nOn https://www.protocols.io/ you can find thousands of protocols curated by researchers around the globe. If you find a protocol that you like, you can have it read for you by Alexa on demand. And if you don’t find a suitable one, don’t worry, it is quite easy to get your well established protocols there :) .\n\nHow to make it work: \n\nSelect or create your own protocol on protocols.io (https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol.png)\nGet the protocol ID from selected protocol\n(https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocolio_id.png)\nThen you can access it directly by number! (“Alexa, ask Science Grandma to read protocol number 13851)  and done!\n\nAfter this, you can also do the following steps to get protocols by name (how cool is that?!) :\n\nLink this skill to Google Drive, by saying (“Alexa, ask Science Grandma to set me up”) \nCreate a sheet named “Science Grandma” (like https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol_drive.png) \nOn the first column, put the name of the protocol as you would say it and, on the second column, the number in the protocols.io database. And done!\n\nWhat can you do:\n\nAsk for a protocol by number (protocols.io id) or name\nGo step-by-step ( by just saying ‘next’) \nGo to specific steps by number (“go to step 5”)\n\nIf you want to give ideas or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. Feel free to build upon it!\nThis skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\nEach skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8601/5467c89f37de43e8a6203256b2c339c0/APP_ICON_LARGE?versionId=_Eb_F2pweBvnLttGPvETKLPnPJQV0Z_D&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=dZ3aslV36EkP6lKGk%2BNk63Bf4JI%3D"
+        },
+        "en-IN": {
+          "summary": "Science Grandma is your lab assistant for recipes and protocols!",
+          "examplePhrases": [
+            "Alexa open science grandma",
+            "Alexa ask science grandma to set me up",
+            "I want protocol number 531"
+          ],
+          "keywords": [
+            "lab",
+            "protocol",
+            "science"
+          ],
+          "name": "Science Grandma",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3548/f9972edc9bcd41aaa7c9137fd3323d0e/APP_ICON?versionId=OZ4Tl8vGwG4taQm_dDpmU321lVPj88nA&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=Z3tU62sPm7BrpL81rUlRDwXv0sk%3D",
+         "description": "Science Grandma is your lab assistant for recipes and protocols! \n\nJust say something like “Alexa, ask Science Grandma for the RNA Extraction protocol“ and it will retrieve it from the protocols.io database! \nOn https://www.protocols.io/ you can find thousands of protocols curated by researchers around the globe. If you find a protocol that you like, you can have it read for you by Alexa on demand. And if you don’t find a suitable one, don’t worry, it is quite easy to get your well established protocols there :) .\n\nHow to make it work: \n\nSelect or create your own protocol on protocols.io (https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol.png)\nGet the protocol ID from selected protocol\n(https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocolio_id.png)\nThen you can access it directly by number! (“Alexa, ask Science Grandma to read protocol number 13851)  and done!\n\nAfter this, you can also do the following steps to get protocols by name (how cool is that?!) :\n\nLink this skill to Google Drive, by saying (“Alexa, ask Science Grandma to set me up”) \nCreate a sheet named “Science Grandma” (like https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol_drive.png) \nOn the first column, put the name of the protocol as you would say it and, on the second column, the number in the protocols.io database. And done!\n\nWhat can you do:\n\nAsk for a protocol by number (protocols.io id) or name\nGo step-by-step ( by just saying ‘next’) \nGo to specific steps by number (“go to step 5”)\n\nIf you want to give ideas or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. Feel free to build upon it!\nThis skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\nEach skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8601/5467c89f37de43e8a6203256b2c339c0/APP_ICON_LARGE?versionId=_Eb_F2pweBvnLttGPvETKLPnPJQV0Z_D&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=dZ3aslV36EkP6lKGk%2BNk63Bf4JI%3D"
+        },
+        "en-AU": {
+          "summary": "Science Grandma is your lab assistant for recipes and protocols!",
+          "examplePhrases": [
+            "Alexa open science grandma",
+            "Alexa ask science grandma to set me up",
+            "I want protocol number 531"
+          ],
+          "keywords": [
+            "lab",
+            "protocol",
+            "science"
+          ],
+          "name": "Science Grandma",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3548/f9972edc9bcd41aaa7c9137fd3323d0e/APP_ICON?versionId=OZ4Tl8vGwG4taQm_dDpmU321lVPj88nA&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=Z3tU62sPm7BrpL81rUlRDwXv0sk%3D",
+         "description": "Science Grandma is your lab assistant for recipes and protocols! \n\nJust say something like “Alexa, ask Science Grandma for the RNA Extraction protocol“ and it will retrieve it from the protocols.io database! \nOn https://www.protocols.io/ you can find thousands of protocols curated by researchers around the globe. If you find a protocol that you like, you can have it read for you by Alexa on demand. And if you don’t find a suitable one, don’t worry, it is quite easy to get your well established protocols there :) .\n\nHow to make it work: \n\nSelect or create your own protocol on protocols.io (https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol.png)\nGet the protocol ID from selected protocol\n(https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocolio_id.png)\nThen you can access it directly by number! (“Alexa, ask Science Grandma to read protocol number 13851)  and done!\n\nAfter this, you can also do the following steps to get protocols by name (how cool is that?!) :\n\nLink this skill to Google Drive, by saying (“Alexa, ask Science Grandma to set me up”) \nCreate a sheet named “Science Grandma” (like https://s3.amazonaws.com/sciencefamily/sciencegrandma_protocol_drive.png) \nOn the first column, put the name of the protocol as you would say it and, on the second column, the number in the protocols.io database. And done!\n\nWhat can you do:\n\nAsk for a protocol by number (protocols.io id) or name\nGo step-by-step ( by just saying ‘next’) \nGo to specific steps by number (“go to step 5”)\n\nIf you want to give ideas or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. Feel free to build upon it!\nThis skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\nEach skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8601/5467c89f37de43e8a6203256b2c339c0/APP_ICON_LARGE?versionId=_Eb_F2pweBvnLttGPvETKLPnPJQV0Z_D&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1534531221&Signature=dZ3aslV36EkP6lKGk%2BNk63Bf4JI%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "A sheet named Science Grandma has to be created in google drive, as said in the instructions. \nThere is an example sheet in a image hosted in S3 also in the description.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandma/privacy_policy.txt"
+        },
+        "en-CA": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandma/privacy_policy.txt"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandma/privacy_policy.txt"
+        },
+        "en-IN": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandma/privacy_policy.txt"
+        },
+        "en-AU": {
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandma/privacy_policy.txt"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

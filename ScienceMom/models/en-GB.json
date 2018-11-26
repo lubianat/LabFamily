@@ -1,0 +1,1330 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "science mom",
+      "intents": [{
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "setUp",
+          "slots": [],
+          "samples": [
+            "set me up"
+          ]
+        },
+        {
+          "name": "findItem",
+          "slots": [{
+            "name": "item",
+            "type": "labItens",
+            "samples": [
+              "find my {item}",
+              "find the {item}",
+              "{item}"
+            ]
+          }],
+          "samples": [
+            "find the {item}",
+            "find my {item}",
+            "find our {item}",
+            "give me the {item}",
+            "give me my {item}",
+            "give me our {item}",
+            "search for the {item}",
+            "search for my {item}",
+            "search for our {item}",
+            "look for the {item}",
+            "look for my {item}",
+            "look for our {item}",
+            "what is the location of the {item}",
+            "what is the location of my {item}",
+            "what is the location of our {item}",
+            "the location of the {item}",
+            "the location of my {item}",
+            "the location of our {item}",
+            "where is the {item}",
+            "where is my {item}",
+            "where is our {item}",
+            "where are the {item}",
+            "where are my {item}",
+            "where are our {item}",
+            "where can I find the {item}",
+            "where can I find my {item}",
+            "where can I find our {item}",
+            "where did I put the {item}",
+            "where did I put my {item}",
+            "where did I put our {item}",
+            "my {item}",
+            "the {item}",
+            "{item}"
+          ]
+        }
+      ],
+      "types": [{
+        "name": "labItens",
+        "values": [{
+            "name": {
+              "value": "enzymes"
+            }
+          },
+          {
+            "name": {
+              "value": "restriction enzymes"
+            }
+          },
+          {
+            "name": {
+              "value": "bunsen burner"
+            }
+          },
+          {
+            "name": {
+              "value": "geiger counter"
+            }
+          },
+          {
+            "name": {
+              "value": "optical spectrometer"
+            }
+          },
+          {
+            "name": {
+              "value": "signal generator"
+            }
+          },
+          {
+            "name": {
+              "value": "calorimeter"
+            }
+          },
+          {
+            "name": {
+              "value": "inductively coupled plasma mass spectrometry"
+            }
+          },
+          {
+            "name": {
+              "value": "burette"
+            }
+          },
+          {
+            "name": {
+              "value": "pipette"
+            }
+          },
+          {
+            "name": {
+              "value": "magnetic stirrer"
+            }
+          },
+          {
+            "name": {
+              "value": "hydrometer"
+            }
+          },
+          {
+            "name": {
+              "value": "filter paper"
+            }
+          },
+          {
+            "name": {
+              "value": "crucible"
+            }
+          },
+          {
+            "name": {
+              "value": "operant conditioning chamber"
+            }
+          },
+          {
+            "name": {
+              "value": "fume hood"
+            }
+          },
+          {
+            "name": {
+              "value": "hitachi 917"
+            }
+          },
+          {
+            "name": {
+              "value": "autoclave"
+            }
+          },
+          {
+            "name": {
+              "value": "agar plate"
+            }
+          },
+          {
+            "name": {
+              "value": "spectrum analyzer"
+            }
+          },
+          {
+            "name": {
+              "value": "mortar and pestle"
+            }
+          },
+          {
+            "name": {
+              "value": "automated analyser"
+            }
+          },
+          {
+            "name": {
+              "value": "sysmex xe-2100"
+            }
+          },
+          {
+            "name": {
+              "value": "still"
+            }
+          },
+          {
+            "name": {
+              "value": "spectrophotometer"
+            }
+          },
+          {
+            "name": {
+              "value": "hemocytometer"
+            }
+          },
+          {
+            "name": {
+              "value": "inoculation loop"
+            }
+          },
+          {
+            "name": {
+              "value": "blender"
+            }
+          },
+          {
+            "name": {
+              "value": "serum-separating tube"
+            }
+          },
+          {
+            "name": {
+              "value": "vacuum chamber"
+            }
+          },
+          {
+            "name": {
+              "value": "aspiratorpump)"
+            }
+          },
+          {
+            "name": {
+              "value": "phonodeik"
+            }
+          },
+          {
+            "name": {
+              "value": "glovebox"
+            }
+          },
+          {
+            "name": {
+              "value": "shock tube"
+            }
+          },
+          {
+            "name": {
+              "value": "bung"
+            }
+          },
+          {
+            "name": {
+              "value": "plate reader"
+            }
+          },
+          {
+            "name": {
+              "value": "microtiter plate"
+            }
+          },
+          {
+            "name": {
+              "value": "goniometer"
+            }
+          },
+          {
+            "name": {
+              "value": "tensiometersurface tension)"
+            }
+          },
+          {
+            "name": {
+              "value": "rotary evaporator"
+            }
+          },
+          {
+            "name": {
+              "value": "wire chamber"
+            }
+          },
+          {
+            "name": {
+              "value": "optical table"
+            }
+          },
+          {
+            "name": {
+              "value": "hot plate"
+            }
+          },
+          {
+            "name": {
+              "value": "marx generator"
+            }
+          },
+          {
+            "name": {
+              "value": "thermal cycler"
+            }
+          },
+          {
+            "name": {
+              "value": "soxhlet extractor"
+            }
+          },
+          {
+            "name": {
+              "value": "mcleod gauge"
+            }
+          },
+          {
+            "name": {
+              "value": "fluorescence microscope"
+            }
+          },
+          {
+            "name": {
+              "value": "boiling chip"
+            }
+          },
+          {
+            "name": {
+              "value": "parafilm"
+            }
+          },
+          {
+            "name": {
+              "value": "drop tube"
+            }
+          },
+          {
+            "name": {
+              "value": "solvent cabinet"
+            }
+          },
+          {
+            "name": {
+              "value": "cork borer"
+            }
+          },
+          {
+            "name": {
+              "value": "cobas mira"
+            }
+          },
+          {
+            "name": {
+              "value": "beehive shelf"
+            }
+          },
+          {
+            "name": {
+              "value": "pipeclay triangle"
+            }
+          },
+          {
+            "name": {
+              "value": "filter funnel"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory tube"
+            }
+          },
+          {
+            "name": {
+              "value": "separatory funnel"
+            }
+          },
+          {
+            "name": {
+              "value": "analytical balance"
+            }
+          },
+          {
+            "name": {
+              "value": "syringe driver"
+            }
+          },
+          {
+            "name": {
+              "value": "lock-in amplifier"
+            }
+          },
+          {
+            "name": {
+              "value": "langmuir–blodgett trough"
+            }
+          },
+          {
+            "name": {
+              "value": "spectrofluorometer"
+            }
+          },
+          {
+            "name": {
+              "value": "french pressure cell press"
+            }
+          },
+          {
+            "name": {
+              "value": "vortex mixer"
+            }
+          },
+          {
+            "name": {
+              "value": "coulter counter"
+            }
+          },
+          {
+            "name": {
+              "value": "drierite"
+            }
+          },
+          {
+            "name": {
+              "value": "salt bridge"
+            }
+          },
+          {
+            "name": {
+              "value": "autoanalyzer"
+            }
+          },
+          {
+            "name": {
+              "value": "white coat"
+            }
+          },
+          {
+            "name": {
+              "value": "ashanalytical chemistry)"
+            }
+          },
+          {
+            "name": {
+              "value": "heatproof mat"
+            }
+          },
+          {
+            "name": {
+              "value": "hot cell"
+            }
+          },
+          {
+            "name": {
+              "value": "scoopula"
+            }
+          },
+          {
+            "name": {
+              "value": "microbalance"
+            }
+          },
+          {
+            "name": {
+              "value": "gooch crucible"
+            }
+          },
+          {
+            "name": {
+              "value": "static mixer"
+            }
+          },
+          {
+            "name": {
+              "value": "matrass"
+            }
+          },
+          {
+            "name": {
+              "value": "dual beam oscilloscope"
+            }
+          },
+          {
+            "name": {
+              "value": "comb generator"
+            }
+          },
+          {
+            "name": {
+              "value": "network analyzerelectrical)"
+            }
+          },
+          {
+            "name": {
+              "value": "incubatorculture)"
+            }
+          },
+          {
+            "name": {
+              "value": "inductively coupled plasma atomic emission spectroscopy"
+            }
+          },
+          {
+            "name": {
+              "value": "spinnercell culture)"
+            }
+          },
+          {
+            "name": {
+              "value": "kipp's apparatus"
+            }
+          },
+          {
+            "name": {
+              "value": "dean–stark apparatus"
+            }
+          },
+          {
+            "name": {
+              "value": "wiley mill"
+            }
+          },
+          {
+            "name": {
+              "value": "dasymeter"
+            }
+          },
+          {
+            "name": {
+              "value": "laminar flow cabinet"
+            }
+          },
+          {
+            "name": {
+              "value": "sand bath"
+            }
+          },
+          {
+            "name": {
+              "value": "chn analyzer"
+            }
+          },
+          {
+            "name": {
+              "value": "sorbent tube"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory informatics"
+            }
+          },
+          {
+            "name": {
+              "value": "syringe filter"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory automation"
+            }
+          },
+          {
+            "name": {
+              "value": "reaction calorimeter"
+            }
+          },
+          {
+            "name": {
+              "value": "victor meyer apparatus"
+            }
+          },
+          {
+            "name": {
+              "value": "heated bath"
+            }
+          },
+          {
+            "name": {
+              "value": "fibre multi-object spectrograph"
+            }
+          },
+          {
+            "name": {
+              "value": "schlenk line"
+            }
+          },
+          {
+            "name": {
+              "value": "semiconductor curve tracer"
+            }
+          },
+          {
+            "name": {
+              "value": "perkin triangle"
+            }
+          },
+          {
+            "name": {
+              "value": "kugelrohr"
+            }
+          },
+          {
+            "name": {
+              "value": "spinning band distillation"
+            }
+          },
+          {
+            "name": {
+              "value": "centrifugal evaporator"
+            }
+          },
+          {
+            "name": {
+              "value": "policemanlaboratory)"
+            }
+          },
+          {
+            "name": {
+              "value": "hessian crucible"
+            }
+          },
+          {
+            "name": {
+              "value": "mercury vacuum"
+            }
+          },
+          {
+            "name": {
+              "value": "electronic nose"
+            }
+          },
+          {
+            "name": {
+              "value": "durrum d-500"
+            }
+          },
+          {
+            "name": {
+              "value": "thermal immersion circulator"
+            }
+          },
+          {
+            "name": {
+              "value": "fluorometer"
+            }
+          },
+          {
+            "name": {
+              "value": "nanotiter"
+            }
+          },
+          {
+            "name": {
+              "value": "picotiter plate"
+            }
+          },
+          {
+            "name": {
+              "value": "heating mantle"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory oven"
+            }
+          },
+          {
+            "name": {
+              "value": "wilhelmy plate"
+            }
+          },
+          {
+            "name": {
+              "value": "ebullioscope"
+            }
+          },
+          {
+            "name": {
+              "value": "wire gauze"
+            }
+          },
+          {
+            "name": {
+              "value": "autoclave tape"
+            }
+          },
+          {
+            "name": {
+              "value": "ebulliometer"
+            }
+          },
+          {
+            "name": {
+              "value": "high-shear mixer"
+            }
+          },
+          {
+            "name": {
+              "value": "comparison microscope"
+            }
+          },
+          {
+            "name": {
+              "value": "cone calorimeter"
+            }
+          },
+          {
+            "name": {
+              "value": "line impedance stabilization network"
+            }
+          },
+          {
+            "name": {
+              "value": "homogenizer"
+            }
+          },
+          {
+            "name": {
+              "value": "tintometer"
+            }
+          },
+          {
+            "name": {
+              "value": "lovibond comparator"
+            }
+          },
+          {
+            "name": {
+              "value": "tube furnace"
+            }
+          },
+          {
+            "name": {
+              "value": "oil bath"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory centrifuge"
+            }
+          },
+          {
+            "name": {
+              "value": "clinostat"
+            }
+          },
+          {
+            "name": {
+              "value": "melting-point apparatus"
+            }
+          },
+          {
+            "name": {
+              "value": "flow injection analysis"
+            }
+          },
+          {
+            "name": {
+              "value": "oscilloscope"
+            }
+          },
+          {
+            "name": {
+              "value": "flynap"
+            }
+          },
+          {
+            "name": {
+              "value": "survey meter"
+            }
+          },
+          {
+            "name": {
+              "value": "koenig's manometric flame apparatus"
+            }
+          },
+          {
+            "name": {
+              "value": "hot air oven"
+            }
+          },
+          {
+            "name": {
+              "value": "instruments used in medical laboratories"
+            }
+          },
+          {
+            "name": {
+              "value": "mcintosh and filde's anaerobic jar"
+            }
+          },
+          {
+            "name": {
+              "value": "gas pycnometer"
+            }
+          },
+          {
+            "name": {
+              "value": "random positioning machine"
+            }
+          },
+          {
+            "name": {
+              "value": "free fall machine"
+            }
+          },
+          {
+            "name": {
+              "value": "ionsense"
+            }
+          },
+          {
+            "name": {
+              "value": "volumetric pipette"
+            }
+          },
+          {
+            "name": {
+              "value": "pneumatic trough"
+            }
+          },
+          {
+            "name": {
+              "value": "ionometer"
+            }
+          },
+          {
+            "name": {
+              "value": "an/urm-25d signal generator"
+            }
+          },
+          {
+            "name": {
+              "value": "thermal vacuum chamber"
+            }
+          },
+          {
+            "name": {
+              "value": "fisher-porter tube"
+            }
+          },
+          {
+            "name": {
+              "value": "retort stand"
+            }
+          },
+          {
+            "name": {
+              "value": "angular rate sensor"
+            }
+          },
+          {
+            "name": {
+              "value": "biopac student lab"
+            }
+          },
+          {
+            "name": {
+              "value": "hose barb"
+            }
+          },
+          {
+            "name": {
+              "value": "du noüy ring method"
+            }
+          },
+          {
+            "name": {
+              "value": "kaliapparat"
+            }
+          },
+          {
+            "name": {
+              "value": "cutting mill"
+            }
+          },
+          {
+            "name": {
+              "value": "time-lapse microscopy"
+            }
+          },
+          {
+            "name": {
+              "value": "shakerlaboratory)"
+            }
+          },
+          {
+            "name": {
+              "value": "tristimulus colorimeter"
+            }
+          },
+          {
+            "name": {
+              "value": "air displacement pipette"
+            }
+          },
+          {
+            "name": {
+              "value": "colorimeterchemistry)"
+            }
+          },
+          {
+            "name": {
+              "value": "gas collecting tube"
+            }
+          },
+          {
+            "name": {
+              "value": "kelvin–varley divider"
+            }
+          },
+          {
+            "name": {
+              "value": "qubit fluorometer"
+            }
+          },
+          {
+            "name": {
+              "value": "pressure reactor"
+            }
+          },
+          {
+            "name": {
+              "value": "lecture bottle"
+            }
+          },
+          {
+            "name": {
+              "value": "biosafety cabinet"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory water bath"
+            }
+          },
+          {
+            "name": {
+              "value": "cytometry"
+            }
+          },
+          {
+            "name": {
+              "value": "meker–fisher burner"
+            }
+          },
+          {
+            "name": {
+              "value": "genequant"
+            }
+          },
+          {
+            "name": {
+              "value": "oscilloscope history"
+            }
+          },
+          {
+            "name": {
+              "value": "quantitative pcr instrument"
+            }
+          },
+          {
+            "name": {
+              "value": "radio-frequency sweep"
+            }
+          },
+          {
+            "name": {
+              "value": "cd v-700"
+            }
+          },
+          {
+            "name": {
+              "value": "distortion meter"
+            }
+          },
+          {
+            "name": {
+              "value": "scanning mobility particle sizer"
+            }
+          },
+          {
+            "name": {
+              "value": "8038 ic"
+            }
+          },
+          {
+            "name": {
+              "value": "vacuum dry box"
+            }
+          },
+          {
+            "name": {
+              "value": "centrifugal extractor"
+            }
+          },
+          {
+            "name": {
+              "value": "automatic pressure-tracking adiabatic calorimeter"
+            }
+          },
+          {
+            "name": {
+              "value": "microchannel plate detector"
+            }
+          },
+          {
+            "name": {
+              "value": "teclu burner"
+            }
+          },
+          {
+            "name": {
+              "value": "parallel-plate flow chamber"
+            }
+          },
+          {
+            "name": {
+              "value": "sensing of phage-triggered ion cascades"
+            }
+          },
+          {
+            "name": {
+              "value": "fluctuation-enhanced sensing"
+            }
+          },
+          {
+            "name": {
+              "value": "digital storage oscilloscope"
+            }
+          },
+          {
+            "name": {
+              "value": "signal analyzer"
+            }
+          },
+          {
+            "name": {
+              "value": "joint clip"
+            }
+          },
+          {
+            "name": {
+              "value": "rockerlaboratory)"
+            }
+          },
+          {
+            "name": {
+              "value": "multifocal plane microscopy"
+            }
+          },
+          {
+            "name": {
+              "value": "combustion pipette"
+            }
+          },
+          {
+            "name": {
+              "value": "splintlaboratory equipment)"
+            }
+          },
+          {
+            "name": {
+              "value": "automated pipetting system"
+            }
+          },
+          {
+            "name": {
+              "value": "fine adjustment screw"
+            }
+          },
+          {
+            "name": {
+              "value": "light sheet fluorescence microscopy"
+            }
+          },
+          {
+            "name": {
+              "value": "live cell imaging"
+            }
+          },
+          {
+            "name": {
+              "value": "scanning flow cell"
+            }
+          },
+          {
+            "name": {
+              "value": "eco funnel"
+            }
+          },
+          {
+            "name": {
+              "value": "iron ringlaboratory)"
+            }
+          },
+          {
+            "name": {
+              "value": "nanalysis"
+            }
+          },
+          {
+            "name": {
+              "value": "slotted line"
+            }
+          },
+          {
+            "name": {
+              "value": "scientific glassblowing"
+            }
+          },
+          {
+            "name": {
+              "value": "forward pipetting"
+            }
+          },
+          {
+            "name": {
+              "value": "reverse pipetting"
+            }
+          },
+          {
+            "name": {
+              "value": "media dispenser"
+            }
+          },
+          {
+            "name": {
+              "value": "imaging particle analysis"
+            }
+          },
+          {
+            "name": {
+              "value": "schlenk-frit"
+            }
+          },
+          {
+            "name": {
+              "value": "lattice light-sheet microscopy"
+            }
+          },
+          {
+            "name": {
+              "value": "chemical storage"
+            }
+          },
+          {
+            "name": {
+              "value": "alcohol burner"
+            }
+          },
+          {
+            "name": {
+              "value": "riess spiral"
+            }
+          },
+          {
+            "name": {
+              "value": "spark micrometer"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory rubber stopper"
+            }
+          },
+          {
+            "name": {
+              "value": "utility clamp"
+            }
+          },
+          {
+            "name": {
+              "value": "rubber bulb"
+            }
+          },
+          {
+            "name": {
+              "value": "burette clamp"
+            }
+          },
+          {
+            "name": {
+              "value": "test tube holder"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory scissor jack"
+            }
+          },
+          {
+            "name": {
+              "value": "emergency eyewash and safety shower station"
+            }
+          },
+          {
+            "name": {
+              "value": "liquid whistle"
+            }
+          },
+          {
+            "name": {
+              "value": "test tube rack"
+            }
+          },
+          {
+            "name": {
+              "value": "triple beam balance"
+            }
+          },
+          {
+            "name": {
+              "value": "crucible tongs"
+            }
+          },
+          {
+            "name": {
+              "value": "spot plate"
+            }
+          },
+          {
+            "name": {
+              "value": "test tube brush"
+            }
+          },
+          {
+            "name": {
+              "value": "weighing paper"
+            }
+          },
+          {
+            "name": {
+              "value": "multichannel analyzer"
+            }
+          },
+          {
+            "name": {
+              "value": "environmental sample processor"
+            }
+          },
+          {
+            "name": {
+              "value": "autosampler"
+            }
+          },
+          {
+            "name": {
+              "value": "b-h analyzer"
+            }
+          },
+          {
+            "name": {
+              "value": "inoculation needle"
+            }
+          },
+          {
+            "name": {
+              "value": "polarograph"
+            }
+          },
+          {
+            "name": {
+              "value": "laboratory drying rack"
+            }
+          },
+          {
+            "name": {
+              "value": "tripodlaboratory)"
+            }
+          },
+          {
+            "name": {
+              "value": "clamp holder"
+            }
+          },
+          {
+            "name": {
+              "value": "pump-areometer"
+            }
+          },
+          {
+            "name": {
+              "value": "positive displacement pipette"
+            }
+          },
+          {
+            "name": {
+              "value": "knudsen absolute manometer"
+            }
+          },
+
+          {
+            "name": {
+              "value": "RNA extraction kit"
+            }
+          },
+          {
+            "name": {
+              "value": "LB media",
+              "synonyms": [
+                "media"
+              ]
+            }
+          }
+        ]
+      }]
+    },
+    "dialog": {
+      "intents": [{
+        "name": "findItem",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [{
+          "name": "item",
+          "type": "labItens",
+          "confirmationRequired": false,
+          "elicitationRequired": true,
+          "prompts": {
+            "elicitation": "Elicit.Slot.377357547722.1201690588654"
+          }
+        }]
+      }]
+    },
+    "prompts": [{
+      "id": "Elicit.Slot.377357547722.1201690588654",
+      "variations": [{
+          "type": "PlainText",
+          "value": "What are you looking for?"
+        },
+        {
+          "type": "PlainText",
+          "value": "Which item do you want to search?"
+        }
+      ]
+    }]
+  }
+}

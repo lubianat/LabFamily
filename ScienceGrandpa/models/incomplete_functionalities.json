@@ -1,0 +1,19 @@
+{
+    "name": "getLiteratureByJournal",
+    "slots": [
+        {
+            "name": "journal",
+            "type": "AMAZON.Animal"
+        },
+        {
+            "name": "query",
+            "type": "AMAZON.Animal"
+        }
+    ],
+    "samples": [
+        "what is new on {journal} about {query}",
+        "what is new in {journal} about {query}",
+        "select {journal} and search for {query}"
+
+    ]
+}

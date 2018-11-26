@@ -1,0 +1,191 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "science grandma",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "ReadMyProtocol",
+                  "slots": [
+                      {
+                          "name": "protocol",
+                          "type": "protocolSlot"
+                      }
+                  ],
+                  "samples": [
+                      "read the protocol for {protocol}",
+                      "read my protocol for {protocol}",
+                      "read the {protocol} protocol",
+                      "start the protocol",
+                      "start reading the protocol"
+                  ]
+              },
+              {
+                  "name": "ReadProtocol",
+                  "slots": [
+                      {
+                          "name": "protocol",
+                          "type": "protocolSlot"
+                      }
+                  ],
+                  "samples": [
+                      "read the default protocol for {protocol}",
+                      "start the default protocol for {protocol}",
+                      "the default protocol for {protocol}",
+                      "for the default protocol for {protocol}",
+                      "start reading the default protocol for {protocol}"
+                  ]
+              },
+              {
+                  "name": "NextRecommendationIntent",
+                  "slots": [],
+                  "samples": [
+                      "next step",
+                      "go to next step",
+                      "go to next",
+                      "next protocol step",
+                      "next"
+                  ]
+              },
+              {
+                  "name": "GoToStep",
+                  "slots": [
+                      {
+                          "name": "number",
+                          "type": "AMAZON.NUMBER"
+                      }
+                  ],
+                  "samples": [
+                      "go to {number} step",
+                      "go to step {number}"
+                  ]
+              },
+              {
+                  "name": "HowManyStepsIntent",
+                  "slots": [],
+                  "samples": [
+                      "how many steps",
+                      "what is the number of steps on this protocol",
+                      "how many steps on this procol",
+                      "how many steps are there",
+                      "how many steps are there on this protocol"
+                  ]
+              },
+              {
+                  "name": "setUp",
+                  "slots": [],
+                  "samples": [
+                      "set me up"
+                  ]
+              },
+              {
+                  "name": "ReadProtocolByNumber",
+                  "slots": [
+                      {
+                          "name": "number",
+                          "type": "AMAZON.NUMBER"
+                      }
+                  ],
+                  "samples": [
+                      "get the protocol number {number}",
+                      "read protocol number {number}",
+                      "I want protocol number {number}"
+                  ]
+              }
+          ],
+          "types": [
+              {
+                  "name": "protocolSlot",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "bacterial transformation"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "pbmc isolation"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "rna extraction"
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "dialog": {
+          "intents": [
+              {
+                  "name": "ReadMyProtocol",
+                  "confirmationRequired": false,
+                  "prompts": {},
+                  "slots": [
+                      {
+                          "name": "protocol",
+                          "type": "protocolSlot",
+                          "confirmationRequired": false,
+                          "elicitationRequired": true,
+                          "prompts": {
+                              "elicitation": "Elicit.Slot.458588116937.725282928315"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "ReadProtocol",
+                  "confirmationRequired": false,
+                  "prompts": {},
+                  "slots": [
+                      {
+                          "name": "protocol",
+                          "type": "protocolSlot",
+                          "confirmationRequired": false,
+                          "elicitationRequired": true,
+                          "prompts": {
+                              "elicitation": "Elicit.Slot.837934906306.97488569722"
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "prompts": [
+          {
+              "id": "Elicit.Slot.458588116937.725282928315",
+              "variations": [
+                  {
+                      "type": "PlainText",
+                      "value": "which protocol do you want"
+                  }
+              ]
+          },
+          {
+              "id": "Elicit.Slot.837934906306.97488569722",
+              "variations": [
+                  {
+                      "type": "PlainText",
+                      "value": "which protocol are you looking for?"
+                  },
+                  {
+                      "type": "PlainText",
+                      "value": "which protocol do you want?"
+                  }
+              ]
+          }
+      ]
+  }
+}

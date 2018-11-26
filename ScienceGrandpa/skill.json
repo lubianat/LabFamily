@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Science Grandpa is your lab assistant to the PubMed database!",
+          "examplePhrases": [
+            "Alexa open Science Grandpa",
+            "Alexa ask Science Grandpa for news about clustering algorithms",
+            "Alexa ask Science Grandpa  for relevant titles on dengue"
+          ],
+          "keywords": [
+            "science",
+            "PubMed",
+            "scientific literature"
+          ],
+          "name": "Science Grandpa",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8eb2/e9ac869083f84f0d999a228abdb7d2c2/APP_ICON?versionId=ChkZGP9SoqNXDMX2bDTnGDlogc30O5_D&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1536679880&Signature=xCaS8VPdGgaGABCGwuU%2B4Jp2JUk%3D",
+          "description": "Just say something like “Alexa, ask Science Grandpa for news about Malaria “ and it will search PubMed for you. \n\nMoreover, you can search by the most relevant papers on a topic by asking: \n -What are the most important papers about dengue? \n\n -Get me relevant discoveries on malaria. \n\nScience Grandpa will tell you the title of the articles and, if you like, send the abstracts to your Alexa app. \n\nIf you want to give feedback or report bugs, you can reach out to lubianat@ime.usp.br. This is an open skill and the source code will be available soon in github.com/lubianat. Feel free to build upon it!\n\n\nThis skill was built by @lubianat at the Computational Systems Biology Laboratory of the University of São Paulo (http://csbiology.com/) and is part of a suite of skills called ‘Lab Family’.\n\nEach skill is independent of the others, and they are meant to improve daily life in molecular biology laboratories. Of course, you are free to use them anywhere you like!\n\nCheck out also:\nLab Dog, for science jokes and lab related fun\nScience Mom, for finding the location of lab equipment and materials\n\nThis tool does not provide medical advice, and is for informational and educational purposes only, and is not a substitute for professional medical advice, treatment or diagnosis. Call your doctor to receive medical advice. If you think you may have a medical emergency, please dial your local emergency response phone number",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4ef7/0363f0ece87640c6ab78709726c1b4d9/APP_ICON_LARGE?versionId=WyA6wiV1yjT5CMakOc1ZL_qNd3Nx0AIJ&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1536679880&Signature=oPw2lITCo8TgA%2Fldr46GM5V8eGg%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandpa/TERMS_OF_USE.txt",
+          "privacyPolicyUrl": "https://github.com/lubianat/LabFamily/blob/master/ScienceGrandpa/privacy_policy.txt"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
